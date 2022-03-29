@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Greycliffcf";
+  src: local("Greycliffcf"),
+    url(./assets/fonts/greycliffcf-bold.otf) format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Greycliffcf";
+  src: local("Greycliffcf"),
+    url(./assets/fonts/greycliffcf-medium.otf) format("truetype");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "Greycliffcf";
+  src: local("Greycliffcf"),
+    url(./assets/fonts/greycliffcf-regular.otf) format("truetype");
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: "Greycliffcf";
+  src: local("Greycliffcf"),
+    url(./assets/fonts/greycliffcf-demibold.otf) format("truetype");
+  font-weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Greycliffcf;
+}
